@@ -1,0 +1,5 @@
+(a) In this part of question we have to do strict ordering which I have done with my own function in which we have prevented deadlock with waiter solution. In second part of question we have to just simply use sem_wait and sem_post to assign forks to philosphers.
+
+(b) In this part I have just implemented the same code and use bowls and made different function for it just like I have done in (a) part.In second part I have implemented bowls with semaphores.
+
+I am giving left fork first and then right.

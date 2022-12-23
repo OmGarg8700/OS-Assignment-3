@@ -1,0 +1,10 @@
+In this we have created 3 programs : 6 files (2 files for each program)
+
+1st in sockets : we have to start server and client simultaneosly and the program runs fine 
+In this we have established a IPC connection using Sockets with AF_UNIX 
+
+2nd in FIFO : we have to start reader and writer simultaneosly and the program runs fine 
+In this we have established a IPC connection using fifo which i created with mkfifo command in terminal (generates a fifo file)
+
+3rd in Shared_memory : we have to start shared_read and shared_write simultaneosly and the program runs fine 
+In this we have established a IPC connection using Shared_memory which is created with shm_open
